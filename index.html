@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f9d949;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 10px 15px 0px rgba(0, 0, 0, 0.9);
+      overflow: hidden;
+      width: 300px;
+    }
+    .card img {
+      width: 100%;
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-content .tag {
+      background-color: #ffc107;
+      border-radius: 20px;
+      color: white;
+      display: inline-block;
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+    .card-content h1 {
+      font-size: 24px;
+      margin: 15px 0 10px;
+    }
+    .card-content p {
+      color: #777;
+      font-size: 14px;
+      margin: 10px 0;
+    }
+    .card-content .author {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .card-content .author img {
+      border-radius: 50%;
+      margin-right: 10px;
+      width: 30px;
+    }
+    .card-content .author .name {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="./assets/images/illustration-article.svg" alt="Thumbnail">
+    <div class="card-content">
+      <span class="tag">Learning</span>
+      <p>Published 21 Dec 2023</p>
+      <h1>HTML & CSS foundations</h1>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div class="author">
+        <img src="./assets/images/image-avatar.webp" alt="Author">
+        <div class="name">Greg Hooper</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
